@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri:  https://github.com/AB-Team/
-          searchPaths: project-config
+          uri:  https://github.com/AB-Team/configurations
+          searchPaths: /
           username: vivekrana2012
           password: raj@kala1
