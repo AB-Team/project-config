@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: project-config
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://github.com/AB-Team/
+          searchPaths: project-config
+          username: vivekrana2012
+          password: raj@kala1
